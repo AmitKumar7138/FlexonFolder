@@ -1,0 +1,195 @@
+2024-11-14 13:46:40,053 - INFO - Establishing database connection
+2024-11-14 13:46:40,154 - INFO - Database connection successful!
+2024-11-14 13:46:40,163 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-14 13:46:40,179 - INFO - Table 'TitanicData' already exists.
+2024-11-14 13:46:40,312 - INFO - Data fetched from table 'TitanicData'
+2024-11-14 13:46:40,541 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-14 13:46:40,637 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:46:40,742 - INFO - Table 'TitanicData_GroupBy' created successfully!
+2024-11-14 13:46:40,830 - INFO - Data inserted into table 'TitanicData_GroupBy' successfully!
+2024-11-14 13:46:40,877 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:46:40,950 - INFO - Table 'TitanicData_Pivot' created successfully!
+2024-11-14 13:46:41,002 - INFO - Data inserted into table 'TitanicData_Pivot' successfully!
+2024-11-14 13:46:41,044 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:46:41,113 - INFO - Table 'TitanicData_Melt' created successfully!
+2024-11-14 13:47:33,545 - INFO - Data inserted into table 'TitanicData_Melt' successfully!
+2024-11-14 13:47:33,759 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:47:33,820 - INFO - Table 'TitanicData_Stack' created successfully!
+2024-11-14 13:48:18,407 - INFO - Data inserted into table 'TitanicData_Stack' successfully!
+2024-11-14 13:48:18,933 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:48:19,020 - INFO - Table 'TitanicData_Merge' created successfully!
+2024-11-14 13:48:29,565 - INFO - Data inserted into table 'TitanicData_Merge' successfully!
+2024-11-14 13:48:29,720 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:48:29,782 - INFO - Table 'TitanicData_Concat' created successfully!
+2024-11-14 13:48:39,250 - INFO - Data inserted into table 'TitanicData_Concat' successfully!
+2024-11-14 13:48:39,440 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:48:39,508 - INFO - Table 'TitanicData_Union' created successfully!
+2024-11-14 13:48:49,540 - ERROR - Error inserting data: nan can not be used with MySQL
+2024-11-14 13:48:49,757 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-14 13:48:49,758 - INFO - Database connection closed.
+2024-11-14 13:48:49,951 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
+2024-11-15 10:45:52,701 - INFO - Establishing database connection
+2024-11-15 10:45:52,769 - INFO - Database connection successful!
+2024-11-15 10:45:52,779 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 10:45:52,789 - INFO - Table 'TitanicData' already exists.
+2024-11-15 10:45:52,904 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 10:45:53,129 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 10:45:53,217 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,281 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,359 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,434 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,514 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,596 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,679 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,758 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 10:45:53,759 - INFO - Database connection closed.
+2024-11-15 10:45:53,918 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
+2024-11-15 11:20:20,557 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:20:20,560 - INFO - Establishing database connection
+2024-11-15 11:20:20,702 - INFO - Database connection successful!
+2024-11-15 11:20:20,706 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:20:20,716 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:20:20,944 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:20:21,310 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:20:21,507 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:21,634 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:21,728 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:21,876 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:22,200 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:22,421 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:22,615 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:23,015 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:20:23,016 - INFO - Database connection closed.
+2024-11-15 11:22:33,232 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:22:33,235 - INFO - Establishing database connection
+2024-11-15 11:22:34,234 - INFO - Database connection successful!
+2024-11-15 11:22:34,242 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:22:34,604 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:22:35,045 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:22:35,409 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:22:35,543 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:35,627 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:35,690 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:35,938 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:36,086 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:36,414 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:36,610 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:36,794 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:22:36,795 - INFO - Database connection closed.
+2024-11-15 11:23:47,756 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:23:47,758 - INFO - Establishing database connection
+2024-11-15 11:23:47,867 - INFO - Database connection successful!
+2024-11-15 11:23:47,875 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:23:47,914 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:23:48,131 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:23:48,589 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:23:48,910 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:48,991 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:49,103 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:49,317 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:49,594 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:49,757 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:49,857 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:49,999 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:23:50,000 - INFO - Database connection closed.
+2024-11-15 11:24:20,322 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:24:20,324 - INFO - Establishing database connection
+2024-11-15 11:24:20,444 - INFO - Database connection successful!
+2024-11-15 11:24:20,454 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:24:20,503 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:24:20,782 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:24:21,088 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:24:21,246 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:21,391 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:21,451 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:21,655 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:21,797 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:21,990 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:22,196 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:22,412 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:24:22,413 - INFO - Database connection closed.
+2024-11-15 11:24:22,702 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
+2024-11-15 11:52:08,457 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:52:08,459 - INFO - Establishing database connection
+2024-11-15 11:52:08,690 - INFO - Database connection successful!
+2024-11-15 11:52:08,694 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:52:08,731 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:52:08,942 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:52:09,283 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:52:09,719 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:09,941 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:10,153 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:12,989 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:15,924 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:17,798 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:19,877 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:21,760 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:52:21,761 - INFO - Database connection closed.
+2024-11-15 11:54:41,724 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:54:41,727 - INFO - Establishing database connection
+2024-11-15 11:54:41,901 - INFO - Database connection successful!
+2024-11-15 11:54:41,908 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:54:41,921 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:54:43,025 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:54:43,784 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:54:44,012 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,114 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,213 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,337 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,481 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,596 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,816 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,955 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:54:44,956 - INFO - Database connection closed.
+2024-11-15 11:56:17,714 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
+2024-11-15 11:58:44,781 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 11:58:44,783 - INFO - Establishing database connection
+2024-11-15 11:58:44,895 - INFO - Database connection successful!
+2024-11-15 11:58:44,903 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 11:58:44,912 - INFO - Table 'TitanicData' already exists.
+2024-11-15 11:58:45,033 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 11:58:45,174 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 11:58:45,267 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,331 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,390 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,487 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,563 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,650 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,738 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,818 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 11:58:45,818 - INFO - Database connection closed.
+2024-11-15 11:58:45,973 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
+2024-11-15 12:27:23,728 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-15 12:27:23,729 - INFO - Establishing database connection
+2024-11-15 12:27:23,870 - INFO - Database connection successful!
+2024-11-15 12:27:23,873 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-15 12:27:23,921 - INFO - Table 'TitanicData' already exists.
+2024-11-15 12:27:24,155 - INFO - Data fetched from table 'TitanicData'
+2024-11-15 12:27:24,695 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-15 12:27:24,961 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:25,157 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:25,297 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:25,771 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:26,012 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:26,339 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:26,571 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:26,855 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-15 12:27:26,855 - INFO - Database connection closed.
+2024-11-15 12:27:27,011 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
+2024-11-16 20:32:28,092 - INFO - Downloaded original_data/TitanicData.csv from s3://eltdatascienceawsrdsbucket to Titanic-Dataset.csv
+2024-11-16 20:32:28,093 - INFO - Establishing database connection
+2024-11-16 20:32:28,240 - INFO - Database connection successful!
+2024-11-16 20:32:28,243 - INFO - Data read from CSV 'Titanic-Dataset.csv'
+2024-11-16 20:32:28,260 - INFO - Table 'TitanicData' already exists.
+2024-11-16 20:32:28,320 - INFO - Data fetched from table 'TitanicData'
+2024-11-16 20:32:28,588 - INFO - Uploaded TitanicData.csv to S3 bucket eltdatascienceawsrdsbucket in folder original_data.
+2024-11-16 20:32:28,691 - INFO - Uploaded TitanicData_DropNa.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:28,766 - INFO - Uploaded TitanicData_GroupBy.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:28,837 - INFO - Uploaded TitanicData_Pivot.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:28,927 - INFO - Uploaded TitanicData_Melt.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:29,022 - INFO - Uploaded TitanicData_Stack.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:29,121 - INFO - Uploaded TitanicData_Merge.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:29,232 - INFO - Uploaded TitanicData_Concat.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:29,322 - INFO - Uploaded TitanicData_Union.csv to S3 bucket eltdatascienceawsrdsbucket in folder processed_data.
+2024-11-16 20:32:29,323 - INFO - Database connection closed.
+2024-11-16 20:32:29,535 - INFO - Uploaded code_backup.zip to s3://eltdatascienceawsrdsbucket/code_backup/code_backup.zip
