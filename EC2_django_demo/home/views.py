@@ -5,4 +5,4 @@ def index(request):
     return HttpResponse("Hello World! This is Amit")
 
 
-# Create your views here.
+# Create your
