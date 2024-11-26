@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Django with Github and EC2
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
