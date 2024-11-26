@@ -39,9 +39,10 @@ jobs:
           # Navigate to the project directory
           cd ~/ec2-test
           source venv/bin/activate
+          cd FlexonFolder
           git remote -v
           git pull origin master --no-edit
-          cd FlexonFolder/EC2_django_demo
+          cd EC2_django_demo
           pip install -r requirements.txt
           pkill -f runserver
           nohup python manage.py runserver 0.0.0.0:8000 > server.log 2>&1 &
