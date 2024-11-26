@@ -40,7 +40,7 @@ jobs:
           cd ~/ec2-test
           source venv/bin/activate
           git remote -v
-          git pull origin main --no-edit
+          git pull origin master --no-edit
           cd FlexonFolder/EC2_django_demo
           pip install -r requirements.txt
           pkill -f runserver
